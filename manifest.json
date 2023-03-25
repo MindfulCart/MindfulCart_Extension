@@ -24,14 +24,20 @@
     ],
     "web_accessible_resources": [
         {
-            "resources": [],
+            "resources": [
+                "assets/images/mindfulcart_small.png"
+            ],
             "matches": [
                 "https://*.amazon.com/*"
             ]
         }
     ],
     "action": {
-        "default_icon": {},
+        "default_icon": {
+            "16": "assets/images/mindfulcart_small.png",
+            "24": "assets/images/mindfulcart_small.png",
+            "32": "assets/images/mindfulcart_small.png"
+        },
         "default_title": "MindfulCart",
         "default_popup": "popup.html"
     },
