@@ -46,8 +46,8 @@ Type Demo here...
 Type How to Install and Run here...
 
 ## Badges <a name="bandges"></a>
-![GitHub all releases](https://img.shields.io/github/downloads/ecalde/Chrome_Extension/total?logo=GitHub&style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/ecalde/Chrome_Extension?style=flat-square)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/ecalde/Chrome_Extension?style=flat-square)
-![GitHub contributors](https://img.shields.io/github/contributors/ecalde/Chrome_Extension?style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/ecalde/Chrome_Extension?style=flat-square)
+![GitHub all releases](https://img.shields.io/github/downloads/MindfulCart/MindfulCart_Extension/total?logo=GitHub&style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/MindfulCart/MindfulCart_Extension?style=flat-square)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/MindfulCart/MindfulCart_Extension?style=flat-square)
+![GitHub contributors](https://img.shields.io/github/contributors/MindfulCart/MindfulCart_Extension?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/MindfulCart/MindfulCart_Extension?style=flat-square)
