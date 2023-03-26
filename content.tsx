@@ -107,13 +107,14 @@ function IndexPopup() {
 								aria-modal="true"
 								aria-labelledby="modal-headline"
 							>
-								<div style={{ backgroundColor: "#8c77b9", height: "60px" }}>
+								<div style={{ backgroundColor: "#d4e3f9", height: "60px" }}>
 									<img
 										src={logo}
 										alt="logo"
 										style={{
 											height: "55px",
 											width: "55px",
+											padding: "05px",
 										}}
 									/>
 								</div>

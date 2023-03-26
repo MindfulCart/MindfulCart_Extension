@@ -1,8 +1,8 @@
 {
-  "name": "with-tailwindcss",
-  "displayName": "With tailwindcss",
-  "version": "0.0.0",
-  "description": "A basic Plasmo extension.",
+  "name": "MindfulCart",
+  "displayName": "MindfulCart",
+  "version": "0.1.0",
+  "description": "A Plasmo extension for Google Chrome to encourage making healthier choices.",
   "author": "coldsauce",
   "scripts": {
     "dev": "plasmo dev",
