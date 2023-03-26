@@ -1,53 +1,33 @@
-# Chrome_Extension 
+This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
 
-# Table of contents
-- [Chrome\_Extension](#chrome_extension)
-- [Table of contents](#table-of-contents)
-  - [Poject Description ](#poject-description-)
-  - [Product Specs ](#product-specs-)
-  - [Credits ](#credits-)
-  - [Wireframes ](#wireframes-)
-  - [Schema ](#schema-)
-  - [Demo ](#demo-)
-  - [How to Install and Run ](#how-to-install-and-run-)
-  - [Badges ](#badges-)
+## Getting Started
 
-## Poject Description <a name="Description"></a>
-MindfulCart is a Google Chrome extension meant to encourage users in making eco-friendly purchases.
+First, run the development server:
 
-## Product Specs <a name="Specs"></a>
-Type Specs here...
+```bash
+pnpm dev
+# or
+npm run dev
+```
 
-## Credits <a name="team"></a>
-<a href="https://github.com/TibaAlanssari">
-  <img src="https://avatars.githubusercontent.com/u/55297857?v=4" alt="HTML tutorial" style="width:42px;height:42px;">
-</a> 
-<a href="https://https://github.com/Commando-Brando">
-  <img src="https://avatars.githubusercontent.com/u/60548867?v=4" alt="HTML tutorial" style="width:42px;height:42px;">
-</a> 
-<a href="https://github.com/ecalde">
-  <img src="https://avatars.githubusercontent.com/u/80291680?v=4" alt="HTML tutorial" style="width:42px;height:42px;">
-</a> 
-<a href="https://github.com/wgalindo1453">
+Open your browser and load the appropriate development build. For example, if you are developing for the chrome browser, using manifest v3, use: `build/chrome-mv3-dev`.
 
-  <img src="https://avatars.githubusercontent.com/u/37806859?v=4" alt="HTML tutorial" style="width:42px;height:42px;">
-</a> 
+You can start editing the popup by modifying `popup.tsx`. It should auto-update as you make changes. To add an options page, simply add a `options.tsx` file to the root of the project, with a react component default exported. Likewise to add a content page, add a `content.ts` file to the root of the project, importing some module and do some logic, then reload the extension on your browser.
 
-## Wireframes <a name="wireframe"></a>
-Type Wireframe here...
+For further guidance, [visit our Documentation](https://docs.plasmo.com/)
 
-## Schema <a name="schema"></a>
-Type Schema here...
+## Making production build
 
-## Demo <a name="demo"></a>
-Type Demo here...
+Run the following:
 
-## How to Install and Run <a name="install"></a>
-Type How to Install and Run here...
+```bash
+pnpm build
+# or
+npm run build
+```
 
-## Badges <a name="bandges"></a>
-![GitHub all releases](https://img.shields.io/github/downloads/MindfulCart/MindfulCart_Extension/total?logo=GitHub&style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/MindfulCart/MindfulCart_Extension?style=flat-square)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/MindfulCart/MindfulCart_Extension?style=flat-square)
-![GitHub contributors](https://img.shields.io/github/contributors/MindfulCart/MindfulCart_Extension?style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/MindfulCart/MindfulCart_Extension?style=flat-square)
+This should create a production bundle for your extension, ready to be zipped and published to the stores.
+
+## Submit to the webstores
+
+The easiest way to deploy your Plasmo extension is to use the built-in [bpp](https://bpp.browser.market) GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow [this setup instruction](https://docs.plasmo.com/framework/workflows/submit) and you should be on your way for automated submission!
