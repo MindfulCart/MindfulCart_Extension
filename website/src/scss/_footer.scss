@@ -1,0 +1,32 @@
+/* 
+    Footer Styles
+*/
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    flex: 1;
+    min-height: 100vh;
+}
+
+.footer {
+    background-color: $footer-color;
+    margin-top: auto;
+
+}
+
+.font-footer {
+    font-family: "Josefin Sans";
+    color: white;
+    font-weight: lighter;
+    font-size: larger
+}
+
+.font-link {
+    font-family: 'Fira Mono', monospace;
+    color: white;
+}

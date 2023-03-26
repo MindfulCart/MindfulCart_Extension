@@ -146,7 +146,7 @@ function IndexPopup() {
 										</ul>
 									</div>
 								</div>
-								<div className="text-center bg-gray-50">
+								<div className="text-center bg-gray-50 px-2">
 									<button
 										type="button"
 										style={{ fontSize: "20px" }}

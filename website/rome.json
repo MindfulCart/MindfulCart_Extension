@@ -1,0 +1,30 @@
+{
+    "formatter": {
+        "enabled": true,
+        "ignore": [
+            "node_modules/**",
+            "dist/**",
+            "src/public/boostrap/**",
+            "src/assets/boostrap/**"
+        ]
+    },
+    "linter": {
+        "enabled": true,
+        "rules": {
+            "recommended": true
+        },
+        "ignore": [
+            "node_modules/**",
+            "dist/**",
+            "src/public/boostrap/**",
+            "src/assets/boostrap/**"
+        ]
+    },
+    "javascript": {
+        "formatter": {
+            "quoteStyle": "double",
+            "trailingComma": "all",
+            "semicolons": "always"
+        }
+    }
+}
