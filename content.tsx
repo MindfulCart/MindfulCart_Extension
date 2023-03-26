@@ -148,7 +148,8 @@ function IndexPopup() {
 								<div className="text-center bg-gray-50">
 									<button
 										type="button"
-										className="text-center w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-blue-500 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:ml-3 sm:w-auto sm:text-sm"
+										style={{ fontSize: "20px" }}
+										className="text-center w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-blue-500 text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:ml-3 sm:w-auto sm:text-sm mb-2 mt-2"
 										onClick={() => setIsModalOpen(false)}
 									>
 										Close
