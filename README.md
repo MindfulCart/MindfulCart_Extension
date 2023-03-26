@@ -66,7 +66,7 @@ We sourced our data from various government agencies around the world such as th
 
 ## Video <a name="Video"></a>
 
-![Youtube](https://youtu.be/QUo8-nDkUxY)
+[Youtube](https://youtu.be/QUo8-nDkUxY)
 
 ## How to Install and Run <a name="install"></a>
 After downloading source code and downloading `pnpm` if not already installed run the following commands:
